@@ -1,4 +1,4 @@
-package com.lqdbg.wallpaper.utilt;
+package com.lqdbg.wallpaper.util.state;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lqdbg.wallpaper.utilt;
+package com.lqdbg.wallpaper.util.state;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -37,10 +37,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @author cginechen
- * @date 2016-08-11
- */
+
 @SuppressLint("PrivateApi")
 public class QMUIDeviceHelper {
     private final static String TAG = "QMUIDeviceHelper";

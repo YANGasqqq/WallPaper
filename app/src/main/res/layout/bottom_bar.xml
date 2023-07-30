@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="6dp"
+    android:id="@+id/main_bar_ll"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_height="?actionBarSize">
+
+  <LinearLayout
+      android:id="@+id/main_bar_menu1"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:layout_weight="1"
+      android:layout_width="0dp"
+      android:layout_height="match_parent">
+      <ImageView
+
+          android:id="@+id/main_bar_iv1"
+          android:src="@drawable/home_icon_s1f"
+          android:layout_width="24dp"
+          android:layout_height="24dp"/>
+      <TextView
+          android:id="@+id/main_bar_tv1"
+          android:layout_gravity="center"
+
+          android:textColor="#1296db"
+          android:text="首页"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_bar_menu2"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/main_bar_iv2"
+            android:src="@drawable/home_icon_s2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/main_bar_tv2"
+
+            android:textColor="#1296db"
+            android:visibility="gone"
+
+            android:text="壁纸"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_bar_menu3"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/main_bar_iv3"
+
+            android:src="@drawable/home_icon_s3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/main_bar_tv3"
+            android:textColor="#1296db"
+            android:visibility="gone"
+            android:text="我的"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

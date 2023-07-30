@@ -1,4 +1,4 @@
-package com.lqdbg.wallpaper.utilt;
+package com.lqdbg.wallpaper.util.state;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -25,14 +25,12 @@ public class SbTools {
     private int addFlags;
     @ColorInt
     private int NONBgColor = 0x00000000,STSBgColor=0x00000000;
-
     public SbTools(Activity activity) {
         this.activity = activity;
     }
     public static SbTools with(Activity activity){
         return new SbTools(activity);
     }
-
     public SbTools hideSb(){
         if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
             addFlags= WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS;
@@ -120,11 +118,6 @@ public class SbTools {
         this.STSBgColor = color;
         return this;
     }
-
-
-
-
-
     public void init() {
         Window window = this.activity.getWindow();
         //当前版本 >=4.4 19

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lqdbg.wallpaper.utilt;
+package com.lqdbg.wallpaper.util.state;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -37,10 +37,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * @author cginechen
- * @date 2016-03-27
- */
 public class QMUIStatusBarHelper {
 
     private final static int STATUSBAR_TYPE_DEFAULT = 0;
